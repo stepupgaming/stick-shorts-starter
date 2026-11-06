@@ -24,11 +24,13 @@ FAIL = [
     (r";", "a semicolon"),
     (r"(?i)\bnot just\b.*\bbut\b", '"not just X but Y"'),
     (r"(?i)\b(it|this|that)(?:'s| is| was) not (?:about )?\w+[^.]*?, (it|this|that)(?:'s| is| was)\b", '"it\'s not X, it\'s Y"'),
-    (r"(?i)here'?s the thing|let that sink in|the truth is|in today'?s world|buckle up|imagine this|it'?s worth noting|"
-     r"at the end of the day|whether you'?re a", "filler"),
-    (r"(?i)\b(spoiler|plot twist)\s*:|here'?s where it gets interesting|the best part\?", "fake suspense"),
-    (r"(?i)\b(delve|unlock|unleash|harness|leverage|seamless|robust|cutting[- ]edge|game[- ]?changer|revolutionary|"
-     r"transformative|landscape|realm|tapestry|elevate|empower|supercharge|deep dive|next level|dive in)\b", "an AI word"),
+    (r"(?i)all in all|at the end of the day|believe it or not|buckle up|here'?s the thing|in today'?s world|"
+     r"it'?s important to (?:note|remember)|it'?s worth noting|let that sink in|make no mistake|the truth is", "filler"),
+    (r"(?i)\b(plot twist|spoiler)\s*:|but wait|stay tuned|the best part\?|wait for it|you (?:won'?t|will not) believe|"
+     r"here'?s where it gets", "fake suspense (show it instead)"),
+    (r"(?i)\b(crucial|cutting[- ]edge|deep dive|delve|elevate|embark|empower|game[- ]?changer|harness|intricate|"
+     r"landscape|leverage|meticulous|realm|revolutionary|robust|seamless|supercharge|tapestry|"
+     r"transformative|underscore|unleash|unlock)\b", "an AI word"),
     (r"(?i)\b(goldmine|gold mine|secret sauce|silver bullet|panic button|perfect storm)\b", "a metaphor punchline (say the plain fact)"),
     (r"(?i)\b(arguably|potentially|in many ways|in a sense|somewhat)\b", "hedging (say it or cut it)"),
     (r"(?i)\b(pivotal|testament to|indelible|breathtaking|groundbreaking|nestled|vibrant|renowned|stunning)\b",

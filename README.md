@@ -35,7 +35,7 @@ Check each model's licence before you make money from what it produces. Bark 3.0
   and YouTube Shorts can run up to 3 minutes.
 - The first sentence is a promise or a question, 15 words at most, and never a date or a slow setup: "Your toast
   really does land butter side down".
-- Put something at stake in the first 10 seconds, and give the viewer something new every 5-8 seconds.
+- Say who it happens to within 10 seconds, and give the viewer something new every 5-8 seconds.
 - Ask for the follow twice: a short line at about 20 seconds ("Follow for more. The strangest part is still to
   come.") and at the end, after a question about the story: "Which side did yours land on? Follow for more, and hit
   like if it was butter side down."

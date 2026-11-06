@@ -1,6 +1,6 @@
 ---
 name: stick-shorts-script
-description: Write the narration for a vertical, narrated short of about a minute (YouTube Shorts, TikTok, Reels), the way we write our history shorts. Picking the story, a sourced fact sheet, a hook that is clear and surprising in one breath, one person to follow, a mid-roll follow ask, a twist past halfway, a callback payoff and a closing question, then a checker. Use when someone asks for a short's script, a hook, a rewrite of one that lost its viewers, or why a short didn't hold people.
+description: Write the narration for a vertical, narrated short of about a minute (YouTube Shorts, TikTok, Reels), the way we write our history shorts. Picking the story, a sourced fact sheet, a hook that is clear and surprising in one breath, one person to follow, a mid-roll follow ask, a twist past halfway, a callback payoff and a closing question, then a checker. Reach for it for a short's script, a hook, a rewrite of one that lost its viewers, or why a short didn't hold people.
 argument-hint: [topic, story, or your own hook]
 ---
 
@@ -20,12 +20,14 @@ harbor with hydrogen bombs. Before writing, check:
 - It's true all the way through. The surprise has to survive the fact check, or the comments will catch it.
 - Someone it happened to can be followed from start to end (see section 4).
 - It has a turn past halfway: something that happened anyway, or that nobody knew at the time.
+- A film like it has already held viewers, on your channel or one with the same audience. A new topic in a shape that
+  worked is a small bet; a new shape is a big one, so change one at a time.
 
 If you can't find the turn, it's a fact, not a story yet. Keep reading the sources, or pick another topic.
 
 ## 2. Facts first
 
-Before writing a line, list every fact the script will use, each with two independent sources (a link and what it says).
+Before writing a line, make a fact sheet: each claim the narration makes, with two independent sources (a link and what it says).
 An encyclopedia plus one other outlet counts as two; two encyclopedias do not. A fact with one source is cut, however good
 it is. Write down where the sources disagree and say only what both support:
 - Use the exact verb the record uses. A project "shelved" was not "cancelled".
@@ -40,7 +42,7 @@ The fact sheet goes with the script. Every number in the narration is on it.
 The first sentence decides whether anyone hears the second. It has to do two things in one breath: say plainly what the
 film is about, and make the viewer need the next line.
 - **Clear in two seconds.** Plain words, active voice, the subject named. "America once planned to nuke a harbor into
-  Alaska." Not a riddle the viewer has to decode, and never a warm-up ("This is one of the craziest stories...").
+  Alaska." Not a riddle the viewer has to decode, and never a warm-up ("You won't believe this story...").
 - **Something specific.** A number, a name or a concrete thing: "a three-legged dog", "thirty miles from ground zero".
 - **A collision.** Two things that don't belong together (a bridge and dancing, a harbor and a nuclear bomb), or what
   people assume against what happened. That gap is the curiosity.
@@ -55,8 +57,8 @@ uploads of the same film, each with a different first sentence.
 ## 4. The shape
 
 One person to follow beats a list of facts. Pick someone the story happens to (a hunter thirty miles from the blast site, a
-newsman whose car is on the bridge) and keep coming back to them. Give the viewer someone or something to root against in
-the first ten seconds: the man with the plan, the wind, the agency.
+newsman whose car is on the bridge) and keep coming back to them. Within ten seconds the viewer should know what
+they're hoping fails: the man with the plan, the wind, the agency.
 
 | Part | Where | What it does |
 | --- | --- | --- |
@@ -66,13 +68,17 @@ the first ten seconds: the man with the plan, the wind, the agency.
 | Why it matters | to about 35 s | Why the plan is absurd or what it costs the person you're following. |
 | The low point or the apparent win | about 40 s | Either the worst moment (he couldn't reach the dog) or it looks over (the plan is shelved). |
 | The twist | past halfway | What happened anyway, or what nobody knew. This is what the mid-roll promised, and it's the best thing in the film, so it sits where viewers start to drift, not at the very end. |
-| Payoff | last 10 s | Close the loop from the hook (the coast they wanted to blast is still there) and give the result a number. |
+| Payoff | last 10 s | Answer the hook (the coast they wanted to blast is still there) and give the result a number. |
 | Call to action | last line | A question about the story, then subscribe (follow on TikTok), then like, tied to the question. At most 20 words. |
 
 Every line either raises the stakes or pays something off. If a line does neither, cut it.
 
 Something new lands every 5 to 8 seconds: a number, a turn ("but", "then", "until"), a jump in time ("that November",
 "thirty years later") or a reveal. If a stretch runs longer, cut it or put a number in it.
+
+The middle is where films leak, from about 40% to 60% of the runtime, once the premise is known and the end feels far.
+Put the twist there, and change something the viewer can see as well: a new place, a different kind of shot, a jump in
+time. A line that reminds them of the promise ("and the dog was still out there") also holds people.
 
 Every question the script opens gets answered. The mid-roll's promise has to be paid off by something that really is
 stranger. If it isn't, change the promise, because a teaser that doesn't deliver costs you the next film's viewers too.
@@ -101,11 +107,12 @@ The script is heard once, at speed, while the viewer looks at something else.
 - Explain any name or term the first time, in a few words: "the Atomic Energy Commission, the agency that built America's
   bombs". If a name is hard to say or hear, describe it ("his village") and put the name on screen.
 - Questions only in the hook and the call to action. In the body, answer the question instead of asking it.
-- Show the twist, don't announce it. No "here's where it gets interesting", "plot twist:" or "the best part?".
+- Show the twist, don't announce it. A line that tells the viewer something good is coming ("wait for it", "plot
+  twist:") only delays the good thing.
 - Say the plain fact instead of a metaphor punchline ("a goldmine", "the secret sauce"), and pick the one thing that
   matters instead of a list of three adjectives.
 - No dashes or semicolons (nobody speaks them), no "not just X but Y" or "it's not X, it's Y" (just say Y), no filler
-  ("here's the thing", "let that sink in", "at the end of the day"), no hedging ("arguably", "in many ways"), no emoji, and
+  ("let that sink in", "here's the thing"), no hedging ("arguably", "in many ways"), no emoji, and
   none of the words that mark machine writing (delve, unlock, landscape, game-changer, and the like). One one-word sentence
   at most.
 - Say what happened, not how important it was. No "a pivotal moment", "a testament to", "left an indelible mark",
@@ -118,14 +125,29 @@ The script is heard once, at speed, while the viewer looks at something else.
 - End on a fact, never a line that could close any film ("the future looks bright", "a lesson for us all").
 - Read it out loud at the narrator's pace. Rewrite any line you stumble on, or wouldn't say to a friend.
 
-## 7. The ending
+## 7. Pictures and sound
+
+The script decides what the picture has to show, so write with the shots in mind.
+- **Keep the picture moving.** The narrated shorts we learned from move the picture about nine-tenths of the time: push
+  in, follow, fall, fly through. A still frame longer than a second or two reads as a pause, even while the voice goes on.
+- **Cut often.** A new shot every two to four seconds, and always on a new paragraph.
+- **Every move points at something.** Push in on the detail the line names, follow the thing that's moving, reveal what
+  the line just promised. Wobble, shake and random zooms look cheap.
+- **One idea per shot.** If the picture shows one thing and the voice says another, the viewer gets neither.
+- **One feeling per scene.** Calm, dread, panic, relief. Let the picture, the music and the voice agree on it.
+- **Music under the voice, not against it.** Keep it low enough that every word is clear, and save its biggest moment
+  for the twist, so the turn feels like it arrived.
+- **Faces that talk.** When the narrator voices what a character says ("the captain yells..."), move that character's
+  mouth.
+
+## 8. The ending
 
 - The call to action is the last thing said, and the film ends on its last word. No outro, no logo, no silence after.
 - Let the last frame lead back into the first, so a replay feels like one film. Replays count as watch time.
 - Ask for the follow (or subscribe), the like and the comment, in that order, in one line. Tie the like to the question
   ("hit like if you would have") so it reads as part of the answer, not a second ask.
 
-## 8. The loop
+## 9. The loop
 
 1. Write the fact sheet.
 2. Write five hooks. Keep the one that is clearest, most surprising and still exactly true.
@@ -138,11 +160,12 @@ The script is heard once, at speed, while the viewer looks at something else.
 Once the film is made, three tests before posting:
 - **Sound off:** watch it on a phone on mute. The pictures alone should still tell you what's happening.
 - **Eyes shut:** listen without watching. The narration alone should keep you.
-- **A stranger:** show someone the first three seconds and ask what the film is about. If they can't say, fix the hook.
+- **A stranger:** show someone the first three seconds and ask what the film is about. A shrug means the hook needs work.
 
-## 9. After posting
+## 10. After posting
 
-Look at where the retention graph drops, and change that part next time:
+Give a film a few days before judging it; the first hours mostly show who saw it first. Then look at where the
+retention graph drops, and change that part next time:
 - **In the first 3 seconds:** the hook isn't clear, or the first shot isn't moving.
 - **A slide before the mid-roll:** the plan part is too slow. Move the mid-roll earlier or cut a line.
 - **A drop at the mid-roll itself:** the ask is costing viewers. Shorten it or cut it.
@@ -150,4 +173,15 @@ Look at where the retention graph drops, and change that part next time:
 - **A drop before the last line:** the payoff came early and people left. End sooner after it.
 
 When a film does well, make the next one in the same shape, and put the same film up on TikTok again with each of the
-other hooks.
+other hooks. When two films in one shape both stall, try a different shape rather than a third topic.
+
+## 11. Learning from a film that worked
+
+When someone shares a short that held people and asks why, take it apart instead of guessing:
+1. Write out the narration with the second each line starts.
+2. Mark which part of the section 4 table each line plays, and note where the shape differs from ours.
+3. Write the hook as a fill-in-the-blanks pattern ("[a place] once tried to [absurd plan] with [unlikely tool]").
+4. Measure the gaps between re-hooks, how often the shot changes, and how much of the time the picture moves.
+5. Say what to borrow (the shape, the order of the parts, the pace) and what to leave (the words, the topic, the claims).
+
+Then offer to write their version with the loop in section 9.
