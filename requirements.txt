@@ -1,0 +1,4 @@
+kittenml
+faster-whisper
+soundfile
+numpy

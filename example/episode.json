@@ -1,0 +1,86 @@
+{
+ "id": "toast",
+ "fps": 30,
+ "size": [1080, 1920],
+ "tail": 0.85,
+ "stage": {"k": 0.0072, "floor_px": 1500},
+ "figures": {"shoulders": 1.0, "arm_drop": 0.55},
+
+ "envs": {
+  "kitchen": {
+   "set": "toon", "base": "kitchen",
+   "toon": {"detail": 0.0, "sat": 1.3, "val": 1.05, "bands": [[0.0, [0.62, 0.58, 0.86]], [0.3, [1.08, 1.04, 1.0]]],
+            "ink": [12, 12, 20], "ink_width": 3, "ink_alpha": 1.0, "haze": false}
+  }
+ },
+
+ "actors": {
+  "guy": {"color": [43, 179, 163], "cap": "cap", "hat": [229, 72, 63], "hair": [70, 46, 32], "x": 0.15, "depth": 0.72, "face": 1}
+ },
+
+ "poses": {
+  "wave_a": [-1.5708, -1.5508, -0.95, -1.95, 1.74, 1.66, 1.45, 1.5708, 1.70, 1.5708],
+  "wave_b": [-1.5708, -1.5508, -0.85, -1.15, 1.74, 1.66, 1.45, 1.5708, 1.70, 1.5708]
+ },
+
+ "tracks": {
+  "guy": [
+   {"at": "@l1:luck-6", "pose": "shrug", "over": 8},
+   {"at": "@l2", "pose": "stand", "over": 10},
+   {"at": "@l2:enough", "pose": "think", "over": 10},
+   {"at": "@l2:The#2", "pose": "cheer", "over": 4},
+   {"at": "@l2:A#3", "walk": {"to": -0.95, "frames": 1}, "face": -1},
+   {"at": "@l2:A#3+2", "pose": "present", "over": 10, "face": -1},
+   {"at": "@l2:Follow", "pose": "wave_a", "over": 5, "face": 1},
+   {"at": "@l2:Follow+7", "pose": "wave_b", "over": 5},
+   {"at": "@l2:Follow+14", "pose": "wave_a", "over": 5},
+   {"at": "@l2:Follow+21", "pose": "wave_b", "over": 5},
+   {"at": "@l2:Follow+28", "pose": "wave_a", "over": 5},
+   {"at": "@l2:Follow+35", "pose": "wave_b", "over": 5}
+  ]
+ },
+
+ "faces": {
+  "guy": [
+   {"at": "@l1", "expr": "deadpan"},
+   {"at": "@l1:luck", "expr": "smug"},
+   {"at": "@l2:half", "expr": "worried"},
+   {"at": "@l2:floor", "expr": "sad"},
+   {"at": "@l2:The#2", "expr": "surprised"},
+   {"at": "@l2:A#3", "expr": "awe"},
+   {"at": "@l2:Follow", "expr": "grin"}
+  ]
+ },
+
+ "props": {
+  "toast": {"slice": {"model": "toast_props.Toast", "start": [0.1, -0.3, 0.79]}},
+  "reveal": {"giant": {"model": "toast_props.GiantTable", "at": [-1.9, 0.5], "top_z": 3.05}},
+  "rulers": {
+   "ruler_kitchen": {"model": "toast_props.Ruler", "text": "2.5 ft", "at": [-0.35, -0.3], "height": 0.76, "size": 0.09, "shift": [0.06, 0.12]},
+   "ruler_giant": {"model": "toast_props.Ruler", "text": "10 ft", "at": [-2.62, 0.1], "height": 3.05, "size": 0.3, "shift": [-0.3, 0.0]}
+  }
+ },
+
+ "cues": [
+  {"type": "slide", "at": "@l2:enough", "until": "@l2:half"},
+  {"type": "fall", "at": "@l2:half", "until": "@l2:floor+2"},
+  {"type": "show", "show": "ruler_kitchen", "at": "@l2", "until": "@l2:The#2"},
+  {"type": "show", "show": "giant", "at": "@l2:A#3", "frames": "end"},
+  {"type": "show", "show": "ruler_giant", "at": "@l2:A#3", "frames": "end"}
+ ],
+
+ "shots": [
+  {"id": "push-in", "at": "@l1", "ease": "out",
+   "cam": {"from": {"pos": [0.55, -2.55, 1.45], "look": [0.1, 0.3, 1.05], "lens": 32},
+           "to": {"pos": [0.3, -1.6, 1.32], "look": [0.12, 0.35, 1.12], "lens": 32}}},
+  {"id": "fall", "at": "@l2", "hide": ["guy"],
+   "cam": {"from": {"pos": [1.05, -1.0, 0.95], "look": [0.1, -0.35, 0.74], "lens": 44},
+           "to": {"pos": [0.95, -1.25, 0.6], "look": [0.1, -0.5, 0.36], "lens": 44}, "fstop": 5.6}},
+  {"id": "face", "at": "@l2:The#2",
+   "cam": {"from": {"pos": [0.25, -1.05, 1.62], "look": [0.15, 0.6, 1.58], "lens": 55},
+           "to": {"pos": [0.24, -0.9, 1.6], "look": [0.15, 0.6, 1.58], "lens": 55}, "fstop": 2.8}},
+  {"id": "giant", "at": "@l2:A#3", "ease": "out",
+   "cam": {"from": {"pos": [-0.7, -2.1, 1.25], "look": [-1.3, 0.3, 1.9], "lens": 26},
+           "to": {"pos": [-1.0, -4.45, 2.0], "look": [-1.45, 0.3, 1.85], "lens": 26}}}
+ ]
+}

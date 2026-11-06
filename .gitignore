@@ -1,0 +1,6 @@
+out/
+.venv/
+__pycache__/
+*.wav
+*.mp4
+!example/short.mp4
